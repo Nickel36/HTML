@@ -1,0 +1,77 @@
+/* h3 {
+    background-color:black;
+    color: white;
+    font-size: 38px;
+}
+
+Simple Selector...
+
+* {
+    ;
+}
+
+h1 {
+    ;
+}
+
+#myid {
+    ;
+}
+
+.class {
+    ;
+} */
+
+/* * {
+    background-color: cadetblue;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+}
+
+#manju {
+    font-size: 50px;
+}
+
+h2, p {
+    background-color: blue;
+    color: rgb(254, 246, 246);
+}
+
+#idselector {
+    background-color: rgb(239, 41, 150);
+    color: rgba(49, 241, 87, 0.873);
+}
+
+.clss {
+    background-color: rgb(205, 250, 24);
+    color: rgb(10, 128, 174);
+}
+
+.A {
+    font-size: 21px;
+} */
+
+/* section div{
+    color: white;
+    background-color: red;
+} */
+
+/* Psuedo class selectors */
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: red;
+}
