@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>FORMS</h3>
+    <form >
+        <table cellpading="3">
+            <tr><th colspan="2"><label aria-readonly="true">Collection of Data</label></td></tr>
+
+            <tr>
+                <td> <label>Gender:</label></td>
+                <td>
+                 <label>Male</label>
+                 <input type="radio" name="a">
+                 <label>Female</label>
+                 <input type="radio" name="a">
+                 <label>Others</label>
+                 <input type="radio" name="a">
+                 </td>
+            </tr>
+            <tr>
+                <td><label for="name">Name :</label></td>
+                <td><select>
+                    <option></option>
+                    <option >Mr</option>
+                    <option>Mrs</option>
+                </select><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                <label>Cricket</label>
+                <input type="checkbox">
+                <label>Football</label>
+                <input type="checkbox">
+                <label >Batminton</label>
+                <input type="checkbox">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" placeholder="Enter your mail id"><br></td>
+            </tr>
+            <tr>
+                <td><label for="pswrd">Password:</label></td>
+                <td><input type="password" id="pswrd" placeholder="Enter password"><br></td>
+            </tr>
+            <tr>
+                <td><label >Country</label></td>
+                <td>
+                    <select>
+                        <option ></option>
+                        <option >IND</option>
+                        <option >AUS</option>
+                        <option >ENG</option>
+                        <option >UK</option>
+                        <option >US</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label >Fav Sport</label></td>
+                <td><input type="text" disabled></td>
+            </tr>
+            <tr> 
+                <td><label>Ph.no :</label></td>
+                <td><input type="tel" value="+91" required><br></td>
+            </tr>
+            <tr> <td><label>Address :</label></td>
+                <td><textarea></textarea><br></td>
+            </tr>
+            <tr>
+                <th colspan="2"><button>Submit</button></th>
+            </tr>
+        </table>
+     </form>
+</body>
+</html>
